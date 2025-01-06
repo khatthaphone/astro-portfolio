@@ -1,8 +1,8 @@
 ---
+import { Github, Linkedin } from 'lucide-react'
+import { LINKS } from '../../lib/constants'
 import Card from '../Card.astro'
 import { Button } from '../ui/button'
-import { LINKS } from '../../lib/constants'
-import { Linkedin, Github, Mail } from 'lucide-react'
 ---
 
 <Card colSpan="md:col-span-3" rowSpan="md:row-span-4">
@@ -11,11 +11,8 @@ import { Linkedin, Github, Mail } from 'lucide-react'
       <div class="flex h-full flex-col">
         <h6 class="m-0 text-sm font-light text-gray-500">welcome</h6>
         <p class="m-0 text-xl font-light">
-          Hi, I'm <b class="font-bold">Andrés Camilo Plaza</b>, a software
-          developer, systems engineer and tattoo artist with strong focus on the
-          user experience, animations and micro interactions. I love to create
-          beautiful and functional interfaces, I am passionate about technology
-          and I am always looking for new challenges.
+          Hi, I'm <b class="font-bold">Khatthaphone</b>, a Full Stack Software
+          Developer.
         </p>
       </div>
       <div class="flex gap-4">
@@ -31,12 +28,12 @@ import { Linkedin, Github, Mail } from 'lucide-react'
             <span class="sr-only">Linkedin Profile</span>
           </Button>
         </a>
-        <a href={LINKS.mail} aria-label="mail profile" target="_blank">
+        <!-- <a href={LINKS.mail} aria-label="mail profile" target="_blank">
           <Button>
             <Mail />
             <span class="sr-only">Email contact</span>
           </Button>
-        </a>
+        </a> -->
       </div>
     </div>
     <img

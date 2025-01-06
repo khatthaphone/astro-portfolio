@@ -7,8 +7,8 @@ export const loaderAnimation = [
 ]
 
 export const LINKS = {
-  github: 'https://github.com/bue221',
-  linkedin: 'https://www.linkedin.com/in/bue221/',
+  github: 'https://github.com/khatthaphone',
+  linkedin: 'https://www.linkedin.com/in/khatthaphone/',
   mail: 'mailto:camiloplaza3@gmail.com',
   instagram: 'https://www.instagram.com/ancap.tattoo/',
   medium: 'https://ladvace.medium.com/',
